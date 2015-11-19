@@ -1,0 +1,57 @@
+/*General Declerations*/
+/** {
+	border: 1px solid red;
+} */
+/*Header*/
+header {
+	max-width: 35em;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	padding-top: 2em;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+/*List Items*/
+.list {
+	max-width: 35em;
+	margin: 0 auto;
+	text-align: center;
+}
+.list .item:first-child p {
+	color:grey;
+}
+/*Sets width on paragraph of list to center
+in div */
+.list p {
+	width: 15em;
+	margin: auto auto;
+}
+/*Creates border around the list elements
+adds spacing to bottom*/
+.item {
+	border: solid black 1px;
+	margin-bottom: .45em;
+}
+/*positions checkbox*/
+.item i:first-child {
+	float: left;
+	padding-top: .3em;
+	padding-left: 4em;
+}
+.item i:last-child {
+float: right;
+padding: .3em 1em 0 0;
+}
+
+.strike del {
+color: red;
+}
+
+
