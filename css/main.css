@@ -39,7 +39,16 @@ adds spacing to bottom*/
 	border: solid black 1px;
 	margin-bottom: .45em;
 }
-/*positions checkbox*/
+
+.item i {
+transition: color 0.5s ease;
+}
+.item i:hover {
+cursor: pointer;
+color: grey;
+}
+
+/*positions checkbox & trash icon*/
 .item i:first-child {
 	float: left;
 	padding-top: .3em;
