@@ -27,6 +27,12 @@ h3 {
 .list .item:first-child p {
 	color:grey;
 }
+
+input[type=text] {
+   height:2em;
+   width: 80%;
+   margin: auto auto;
+}
 /*Sets width on paragraph of list to center
 in div */
 .list p {
@@ -43,6 +49,7 @@ adds spacing to bottom*/
 .item i {
 transition: color 0.5s ease;
 }
+
 .item i:hover {
 cursor: pointer;
 color: grey;
