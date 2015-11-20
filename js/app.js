@@ -7,7 +7,9 @@ $('#add').on('click',function() {
 	
 
 });
-$('i .fa-trash').css('color','red');
+$('span').on('click',function() {
+	$(this).closest('div').remove();
+});
 	});
 
 
