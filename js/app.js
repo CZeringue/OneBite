@@ -11,3 +11,4 @@ $('i .fa-trash').css('color','red');
 	});
 
 
+
