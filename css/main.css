@@ -13,6 +13,7 @@ h1 {
 	text-align: center;
 	padding-top: 2em;
 }
+
 h3 {
 	text-align: center;
 	font-size: 1.5em;
@@ -66,7 +67,8 @@ float: right;
 padding: .3em 1em 0 0;
 }
 
-.strike del {
+.checked {
+text-decoration: line-through;
 color: red;
 }
 
