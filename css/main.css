@@ -67,7 +67,8 @@ float: right;
 padding: .3em 1em 0 0;
 }
 
-.strike del {
+.checked {
+text-decoration: line-through;
 color: red;
 }
 
